@@ -13,7 +13,7 @@ An SPFx webpart used to view team information. Used in Medpro Group's intranet a
 
 ## Prerequisites
 
-- Webpart for SharePoint Server 2016
+- Deployed to SharePoint Server 2016
 
 ## Solution
 
