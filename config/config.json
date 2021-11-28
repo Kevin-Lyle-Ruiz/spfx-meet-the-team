@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/meetTheTeam/MeetTheTeamWebPart.js",
+      "manifest": "./src/webparts/meetTheTeam/MeetTheTeamWebPart.manifest.json",
+      "outputPath": "./dist/meet-the-team-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "MeetTheTeamWebPartStrings": "webparts/meetTheTeam/loc/{locale}.js"
+  }
+}

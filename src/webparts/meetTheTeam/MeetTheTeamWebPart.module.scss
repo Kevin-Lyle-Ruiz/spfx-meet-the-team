@@ -1,0 +1,82 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.meetTheTeam {
+  * {
+    /*margin: 0;
+    padding: 0;*/
+  }
+
+  .webpart_container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .webpart_header {
+    font-size: 22px !important;
+    font-weight: bold;
+    color: #0068a5;
+  }
+
+  .webpart_button {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .webpart_icon {
+    padding: 0 5px;
+  }
+
+  .webpart_grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 3;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .webpart_card {
+    width: 275px;
+    height: 330px;
+    margin: 15px auto;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .job_title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .webpart_info {
+    margin-bottom: 1rem;
+    color: #727e86;
+  }
+
+  .icon_container {
+    padding-top: 5px;
+  }
+
+  .social_icons {
+    font-size: 2em;
+    color: #1068a5;
+  }
+
+  .profile_image {
+    display: block;
+    margin: 0 auto;
+    width: 179px;
+    height: 179px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    border: 1px solid grey;
+    overflow: auto;
+  }
+
+  .assignments_header {
+    padding-top: 10px;
+    text-align: center;
+  }
+}
