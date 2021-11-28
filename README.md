@@ -17,9 +17,9 @@ An SPFx webpart used to view team information. Used in Medpro Group's intranet a
 
 ## Solution
 
-Solution|Author(s)
---------|---------
-Kevin Ruiz | Medpro Group | https://portfolio.kevinruiz.tech/
+Solution|Author|Contact
+--------|---------|
+Meet the Team Webpart | Kevin Ruiz | https://portfolio.kevinruiz.tech/
 
 ## Version history
 
