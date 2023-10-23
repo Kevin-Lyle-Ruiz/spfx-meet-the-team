@@ -101,7 +101,7 @@ export default class MeetTheTeamWebPart extends BaseClientSideWebPart<IMeetTheTe
     return this.context.spHttpClient
       .get(
         // this.context.pageContext.web.absoluteUrl +
-        "https://thehub.medpro.com/sites/psrs/public/_api/lists/getbytitle('Meet%20The%20Team')/Items",
+        "https://your.site.here.com/sites/psrs/public/_api/lists/getbytitle('Meet%20The%20Team')/Items",
         SPHttpClient.configurations.v1
       )
       .then((response: SPHttpClientResponse) => {
@@ -118,7 +118,7 @@ export default class MeetTheTeamWebPart extends BaseClientSideWebPart<IMeetTheTe
       response.value.forEach((item: ISPListItem) => {
         const bucket: string = item.Bucket;
         const attachmentHtml: string = (item.Additional_x0020_Information ? `<a href="${item.Additional_x0020_Information.Url}" target="_blank"><i class="fa fa-info-circle ${styles.social_icons} ${styles.webpart_icon}"></i></a>` : "");
-        const imageSource: string = (item.Profile_x0020_Image ? item.Profile_x0020_Image.Url : `https://thehub.medpro.com/sites/psrs/public/PublishingImages/Pages/Meet%20The%20Team/Placeholder.jpg`);
+        const imageSource: string = (item.Profile_x0020_Image ? item.Profile_x0020_Image.Url : `https://your.site.here.com/sites/psrs/public/PublishingImages/Pages/Meet%20The%20Team/Placeholder.jpg`);
 
         if (bucket === "Resource Development/Operations") {
           resourceDevelopmentHTML += `
