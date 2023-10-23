@@ -2,7 +2,7 @@
 
 ## Summary
 
-An SPFx webpart used to view team information. Used in Medpro Group's intranet and uses a SharePoint List and Picture Library to gather the neccessary information to populate the application.
+An SPFx webpart used to view team information. Uses a SharePoint List and Picture Library to gather the neccessary information to populate the application.
 
 ![Initial View of App](./app-photos/app-photo.png)
 ![Opened View of drop-down](./app-photos/app-opened.png)
